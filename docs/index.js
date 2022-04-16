@@ -18,10 +18,10 @@ function rollDice(){
     
     var winnerText = document.querySelector(".winLose");
     if (randomDie1 > randomDie2) {
-        winnerText.innerText = ("🚩Player 1 Wins!")
+        winnerText.innerText = ("✨Player 1 Wins!")
     }
     if (randomDie1 < randomDie2) {
-        winnerText.innerText = ("Player 2 Wins!🚩")
+        winnerText.innerText = ("Player 2 Wins!✨")
     }
     if (randomDie1 === randomDie2) {
         winnerText.innerText = ("Draw!")
